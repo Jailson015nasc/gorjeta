@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="img-center-titulo">
+    <img src="images/logo.svg" alt="">
+  </div>
+
+  <div class="container">
+     <main>
+        <section class="caixa-1">
+          <h1 class="bill">Bill</h1>
+          <div class="put-svg">
+            <img src="images/icon-dollar.svg" alt="">
+            <input type="number" placeholder="0">
+          </div>
+
+          <article class="caixa-btn">
+            <h1 class="select-tip">Select Tip %</h1>
+             <div class="btn-1">
+              <button id="botao1">5%</button>
+              <button id="botao2">10%</button>
+              <button id="botao3">15%</button>
+             </div>
+             <div class="btn-2">
+              <button id="botao4">25%</button>
+              <button id="botao5">50%</button>
+              <input id="custom" type="text" placeholder="custom">
+             </div>
+            </article>
+
+            <div class="caixa-pud">
+              <h1 class="numberofpeople">Number of People</h1>
+              <div class="pud-svg">
+                <img src="images/icon-person.svg" alt="">
+                <input type="number" placeholder="0">
+              </div>
+            </div>
+  
+        </section>
+
+    <section class="caixa-2">
+      
+      <article class="flup-1">
+       <div class="caixa-tip">
+        <h1>Tip Amount</h1>
+        <p> /  person</p>
+       </div>
+       <h1 id="contador-1">$0.00</h1>
+      </article>
+    
+      <article class="flup-2">
+      
+        <div class="caixa-total">
+         <h1>Total</h1>
+         <p>/  person</p>
+        </div>
+        <h1 id="contador-2">$0.00</h1>
+      </article>
+
+      <div class="flup-btn">
+         <button id="reset">RESET</button>
+      </div>
+      
+    </section>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

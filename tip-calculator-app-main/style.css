@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* - Font size (form inputs): 24px */
+    /* ### Primary */
+
+--Strong-cyan: hsl(172, 67%, 45%);
+
+   /* ### Neutral */
+
+--Very-dark-cyan: hsl(183, 100%, 15%);
+--Dark-grayish-cyan: hsl(186, 14%, 43%);
+--Grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Very-light-grayish-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Light-grayish-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.img-center-titulo{
+    position: relative;
+    bottom: 18rem;
+    left: 24rem;
+}
+main{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* INICIO DA SESSAO 1 */
+.container{
+    border-radius: 17px;
+    background-color: var(--Very-light-grayish-cyan);
+    width: 700px;
+    height: 340px;
+    padding: 30px;
+    max-width: 1440px;
+    min-width:  375px;
+}
+
+.bill{
+    color: green;
+    font-size: 13px;
+    font-family: 13px;
+}
+.put-svg img{
+   position: relative;
+   left: 7%;
+}
+input{
+    /* border: 2px solid #eaebf0; */
+    background-color: var(--Very-light-grayish-cyan);
+    box-shadow: 1px 1px #caddd0;
+    box-shadow: 2px ;
+    font-size: 24px;
+    width: 250px;
+    text-align: center;
+    padding-left: 200px;
+    border: none;
+    color: var(--Strong-cyan);
+    
+}
+::placeholder{
+    font-size: 20px;
+    color: var(--Strong-cyan);
+}
+.caixa-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.select-tip{
+   color: green;
+   margin-top: 20px;
+   font-size: 13px;
+   font-family: sans-serif;
+}
+
+.btn-1, .btn-2{
+    display: flex;
+    gap: 10px;
+}
+#botao1, #botao2, #botao3, 
+#botao4, #botao5{
+    background-color: var(--Very-dark-cyan);
+    color: #fff;
+    width: 75px;
+    border: 1px solid  var(--Very-dark-cyan);
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#custom{
+    color: var(--Dark-grayish-cyan);
+    background-color: #caddd0;
+    width: 75px;
+    padding: 10px;
+    border-radius: 6px;
+    /* border: 1px solid var(--White); */
+}
+
+.numberofpeople{
+    font-family: sans-serif;
+    color: green;
+    font-size: 12px;
+    margin-top: 20px;
+    /* margin: ; */
+}
+.pud-svg img{
+   position: relative;
+   left: 8%;
+}
+/* FIM DA SESSAO 1 */
+
+/* SESSAO 2  */
+.caixa-2{
+  background-color: var(--Very-dark-cyan);
+  width: 300px;
+  height: 280px;
+  padding: 30px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.flup-1{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-tip h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.caixa-tip p{
+    color:  var(--Grayish-cyan);
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.flup-2{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-total h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.caixa-total p{
+    color:  var(--Grayish-cyan);
+    font-family: sans-serif;
+    font-size: 10px;
+}
+#contador-1, #contador-2{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: var(--Strong-cyan);
+}
+
+.flup-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#reset{
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--Very-dark-cyan);
+    font-weight: 700;
+    border: none;
+}
+#reset:hover{
+     background-color: var(--Dark-grayish-cyan);
+}
+/* FIM SESSAO 2 */
+
